@@ -1,0 +1,43 @@
+html,
+body {
+    height: 100%;
+}
+
+#firstPopup {
+    width: 100%;
+    display: none;
+    height: 100%;
+}
+
+.popup-content {
+    background: #cecece;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.inner-content {
+    height: 90%;
+    background: #ececec;
+    overflow-x: hidden;
+}
+
+.inner-content .cart {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.inner-content img {
+    width: 100%;
+    flex-basis: 100%;
+}
+
+.inner-content .rightmenu {
+    position: absolute;
+    left: -100px;
+    width: 50px;
+    height: 50px;
+    background: red;
+}
